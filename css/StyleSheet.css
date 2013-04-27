@@ -1,0 +1,98 @@
+﻿
+a { cursor:pointer; }
+
+#ItemList { margin:30px; background-color:#e8e2d6; color:#333; }
+
+.active { cursor:default; }
+
+.SmallLink { font-size:11px; }
+.SmallLink:hover { color:#AF7964; }
+
+.ProductDisplay { padding:10px; }
+.ProductDisplay div {  }
+
+.PD-PageCategory { font-size:2em; text-align:center; font-weight:bolder; padding:5px; vertical-align:middle; }
+
+.PD-Header { padding:5px; }
+.PD-Header .ItemName { float:left; padding:5px 5px 5px 0px; font-size:1.6em; font-weight:bold; }
+.PD-Header .Price { text-align:right; padding:5px; }
+.PD-Header .Price span { font-size:1.4em; }
+
+.PD-Body { padding:5px; }
+.PD-Body img { float:left; width:75px; margin-right:20px; }
+
+.PD-Footer, .PD-Footer div { padding:5px; }
+.PD-Footer .Shipable { float:left; width:250px; }
+.PD-Footer .Taxable { float:left; }
+.PD-Footer .Button { text-align:right; }
+
+.ItemName { float:left; margin:0px 0px 10px 0px; }
+.ItemName span { font-weight:bold; font-size:1.5em; }
+
+.ItemLocation { float:left; width:200px; border:1px solid #333; margin:0px 15px 0px 0px; }
+.ItemLocation .LocationName { float:left; padding:10px; }
+.ItemLocation .LocationName span { font-weight:bold; font-size:1.2em; }
+.ItemLocation .Quantity { text-align:center; }
+.ItemLocation .Price { padding:0px 0px 10px 10px; }
+.ItemLocation .Price span { font-weight:bold; }
+
+.HR { border:1px solid #333; margin:10px 0px 20px 0px; }
+.Pass { color:Green; font-weight:bold; }
+.Fail { color:Red; font-weight:bold; }
+
+.ShoppingCart { text-align:right; padding:1px 30px 5px 1px; font-size:1.3em; border-bottom:1px solid #fff; }
+.ShoppingCartImg { height:25px; width:25px; }
+
+.ShoppingCartContent { margin:0px 0px 10px 0px; border-bottom:1px solid #333; }
+.ShoppingCartContent, .ShoppingCartContent div { padding:5px; }
+
+.AddToCart-Red { width:130px; height:36px; background:transparent url(../images/add_to_cart.png) no-repeat -115px -25px; cursor:pointer; }
+.AddToCart-Blue { width:130px; height:36px; background:transparent url(../images/add_to_cart.png) no-repeat -115px -65px; cursor:pointer; }
+.AddToCart-Black { width:130px; height:36px; background:transparent url(../images/add_to_cart.png) no-repeat -115px -105px; cursor:pointer; }
+.AddToCart-Orange { width:130px; height:36px; background:transparent url(../images/add_to_cart.png) no-repeat -255px -25px; cursor:pointer; }
+.AddToCart-Green { width:130px; height:36px; background:transparent url(../images/add_to_cart.png) no-repeat -255px -65px; cursor:pointer; }
+.AddToCart-White { width:130px; height:36px; background:transparent url(../images/add_to_cart.png) no-repeat -255px -105px; cursor:pointer; }
+
+.Next-Red { width:90px; height:36px; background:transparent url(../images/next.png) no-repeat -153px -25px; cursor:pointer; }
+.Next-Blue { width:90px; height:36px; background:transparent url(../images/next.png) no-repeat -153px -65px; cursor:pointer; }
+.Next-Black { width:90px; height:36px; background:transparent url(../images/next.png) no-repeat -153px -105px; cursor:pointer; }
+.Next-Orange { width:90px; height:36px; background:transparent url(../images/next.png) no-repeat -256px -25px; cursor:pointer; }
+.Next-Green { width:90px; height:36px; background:transparent url(../images/next.png) no-repeat -256px -65px; cursor:pointer; }
+.Next-White { width:90px; height:36px; background:transparent url(../images/next.png) no-repeat -256px -105px; cursor:pointer; }
+
+/* KUDLER OVERRIDES */
+
+.clear {
+    clear:both;
+    display:none;    
+}
+
+.logo {
+	background:url(../images/masthead.jpg) no-repeat;
+	height:150px;
+	overflow:hidden;
+}
+
+.container_16 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+nav.navigation{
+	position:relative;
+	background-color:#000;
+	padding:10px;
+	/* margin:0 auto; */
+	text-align:center;
+}
+
+#article {
+	background-color:#000;
+	width:760px;
+	padding-top:30px;
+	margin-bottom:10px;
+	padding-bottom:30px;
+}
+
+/* JQUERY OVERRIDES */
