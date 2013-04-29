@@ -1,49 +1,198 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title></title>
+    <title>KFF - Mobile</title>
 
-<link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" title="html5doctor.com Reset Stylesheet" />
-<link rel="stylesheet" type="text/css" href="css/960.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="css/kudler.css">
-<script type="text/javascript" src="js/modernizr-2.0.6.min.js"></script>
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery-ui-1.9.2.custom.css" rel="stylesheet" type="text/css" />
+    <link href="css/StyleSheet.css" rel="stylesheet" type="text/css" />
+    
+    <script src="js/jquery-ui-1.9.2.custom.js" type="text/javascript"></script>
+    <script src="js/jquery-1.8.3.js" type="text/javascript"></script>
+    <script src="js/functions.js" type="text/javascript"></script>
+
+    <style type="text/css">
+        p 
+        {
+            padding:0px 0px 10px 0px;    
+        }
+        
+        .Active-Text 
+        {
+            color:#AF7964;    
+        }
+        
+        .hr-white 
+        {
+            width:95%;
+            border-bottom:1px solid #fff;
+            margin:10px auto;    
+        }
+        
+        .Image-Logo 
+        {
+            border:none;
+            width:150%;
+            position:relative;
+            left:-25%;
+        }
+        
+        .header
+        {
+            width:100%;
+            overflow:hidden;
+        }
+        
+        #slideshow
+        {
+	        width:100%;
+	        margin-bottom:34%;
+        }
+
+        #slideshow img
+        {
+            width: 100%;
+	        position:absolute;
+	        z-index:8;
+	        border-top:1px solid #ccc;
+	        border-bottom:1px solid #ccc;
+        }
+        #slideshow img.active {
+            z-index:10;
+        }
+
+        #slideshow img.last-active {
+            z-index:9;
+        }
+        /*
+        #mobile-slideshow 
+        {
+            
+            width:100%;
+            overflow:hidden;    
+        }
+        
+        #mobile-slideshow img 
+        {
+            height:auto;
+            width:100%;        
+        }
+        */
+        .info 
+        {
+            background-color:#000;
+            color:#fff;
+            padding:10px;    
+        }
+        
+        .footer  
+        {
+            position:fixed; 
+            left:0px; 
+            bottom:0px; 
+            width:100%;
+            color:#fff;
+            text-align:center;
+            /*
+            background: #ddd;
+	        background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#c4c4c4));
+	        background: -moz-linear-gradient(top, #ededed, #c4c4c4);
+	        */
+	         
+        }
+        
+        .footer ul 
+        {
+            text-align:center;
+            /* width:100%; */
+            line-height:1.3em;
+	        background: #1d1ab2;
+	        background: -webkit-gradient(linear, left top, left bottom, from(#7573d9), to(#1d1ab2));
+	        background: -moz-linear-gradient(top, #7573d9, #1d1ab2);
+        }
+            
+        .footer li 
+        {
+            display:inline-block;
+            /* width:25%; */
+	        padding-right:12px;
+	        padding-left:8px;
+	        border-right:#888 1px solid;
+	        text-align:center;        
+        }
+        
+        .footer li:last-child 
+        {
+            border-right:none;    
+        }
+        
+        .footer a, .footer a:visited 
+        {
+            color:#fff;
+            text-decoration:none;    
+        }
+        
+        .footer a:active 
+        {
+            color:#fff;
+            text-decoration:underline;    
+        }
+        
+        .side-info 
+        {
+            color:#ccc;        
+        }
+        
+        .side-info a, .side-info a:visited  
+        {
+            color:#fff;        
+        }
+        
+        .side-info a:active  
+        {
+            color:red;        
+        }  
+    </style>
+
 </head>
+<body>
+    
+    <div class="header">
+        <img src="images/masthead.jpg" class="Image-Logo" alt="Kudler Fine Foods" title="Kudler Fine Foods" />
+    </div>
 
-<body id="internet">
+    <!--<div id="slideshow">         <img src="images/wine3.jpg" alt="Kudler Fine Foods" title="Kudler Fine Foods" class="active" />         <img src="images/cooking1.jpg" alt="Kudler Fine Foods" title="Kudler Fine Foods" />         <img src="images/cooking2.jpg" alt="Kudler Fine Foods" title="Kudler Fine Foods" />         <img src="images/cooking3.jpg" alt="Kudler Fine Foods" title="Kudler Fine Foods" />         <img src="images/cooking4.jpg" alt="Kudler Fine Foods" title="Kudler Fine Foods" />         <img src="images/cooking5.jpg" alt="Kudler Fine Foods" title="Kudler Fine Foods" />         <img src="images/cooking6.jpg" alt="Kudler Fine Foods" title="Kudler Fine Foods" />     </div>-->
+    
+    <div class="info">
+        <p>Product 1</p>
+        <p>Product 2</p>
+        <p>Product 3</p>
+        <p>Product 4</p>
+        <p>Product 5</p>
+        <p>Product 6</p>
+        <p>Product 7</p>
+        <p>Product 8</p>
+        <p>Product 9</p>
+        <p>Product 10</p>
+        <p>Product 11</p>
+        <p>Product 12</p>
+        <p>Product 13</p>
+        <p>Product 14</p>
+        <p>Product 15</p>
+        <p>Product 16</p>
+        <p>Product 17</p>
+        <p>Product 18</p>
+        <p>Product 19</p>
+        <p>Product 20</p>
+        <p>Product 21</p>
+    </div>
 
-<header class="wrapper">
-  <div class="container_16 logo">
-    <p>Kudler Fine Foods</p>
-  </div>
-
-  <div class="clear"></div>
-</header>
-
-<nav class="container_16 navigation">
-	<ul>
-		<li><a class="active">Home</a></li>
-	    <li><a class="">Return</a></li>
-    </ul>
-</nav>
-
-<section class="container_16">
-<div id="article" class="container_16" style="height:840px; color:White;">
-
-Products Page!!!
-
-</div>
-<div class="clear" style="clear:both;"></div>
-</section>
-
-	<footer class="footer container_16" id="footer">
-			
-		<div class="copyright">
-			<p>&copy; 2007, 2010, 2011 Apollo Group, Inc. All Rights Reserved.</p>
-		</div>
-		
-	</footer>
-		
-	</body>
+    <div class="footer">
+        <ul>
+            <li><a href="index.html" title="">Home</a></li>
+            <li><a href="product.html" title="">Prodcts</a></li>
+            <li><a href="" title="">Exit</a></li>
+        </ul>
+    </div>
+</body>
 </html>
